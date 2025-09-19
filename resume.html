@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            -webkit-text-size-adjust: 100%;
+            --heading-font: 'Helvetica', 'Geneva', 'Tahoma', sans-serif;
+        }
+
+        body {
+            margin: 3rem 4rem 5rem;
+            font-family: Calibri, sans-serif;
+            font-size: 1rem;
+        }
+
+        main {
+            max-width: 50rem;
+            margin: auto;
+        }
+
+        h1 {
+            font-family: var(--heading-font);
+            font-size: 2.5rem;
+            margin: 0;
+            margin-left: -0.1rem;
+        }
+
+        h2.section {
+            font-family: var(--heading-font);
+            font-size: 1.2.5rem;
+            margin-top: 0.75rem;
+            margin-bottom: 0.25rem;
+            margin-left: -0.05rem;
+        }
+
+        h2.title {
+            font-family: var(--heading-font);
+            font-size: 1rem;
+            margin-bottom: 0;
+            margin-top: 1rem;
+            margin-left: -0.025rem;
+        }
+
+        h3 {
+            font-family: var(--heading-font);
+            font-size: 0.9rem;
+            margin: 0.25rem 0;
+        }
+
+        p {
+            margin-top: 0.25rem;
+            margin-bottom: 0.75rem;
+        }
+
+        pre {
+            font-family: inherit;
+            display: inline;
+            margin: 0;
+        }
+
+        ul {
+            margin: 0.5rem 0 1rem;
+        }
+
+        ul.cascade {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            white-space: wrap;
+        }
+
+        ul.cascade li {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-right: 1rem;
+        }
+
+        ul.cascade li pre {
+            display: inline-block;
+            margin-right: -1rem;
+        }
+
+        ul.cascade li pre:not(:first-child) {
+            margin-left: 1rem;
+        }
+
+        ul.cascade h3 {
+            display: inline-block;
+            margin: 0;
+            padding-top: 0.1rem;
+            white-space: pre;
+        }
+
+        ul.inline {
+            padding: 0;
+            margin: 0;
+            line-height: 1rem;
+            list-style: none;
+        }
+
+        ul.inline li {
+            margin: 0.5rem 0;
+        }
+
+        ul.inline li * {
+            display: inline;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 2rem;
+            border-bottom: 2px solid black;
+        }
+
+        .header p {
+            margin-top: 0;
+        }
+
+        .header li {
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 1rem;
+            width: 100%;
+            white-space: pre;
+        }
+
+        .header a {
+            white-space: nowrap;
+        }
+
+        .contact-details {
+            width: min-content;
+            margin: 0 0 0.75rem 0;
+            padding: 0;
+
+            list-style: none;
+            text-align: right;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                margin: 1rem;
+            }
+
+            h3 {
+                display: inline-flex;
+                flex-direction: column;
+            }
+
+            h3 > *:not(:first-child) {
+                margin-left: 1.5rem;
+            }
+
+            ul {
+                padding-left: 1.5rem;
+            }
+
+            ul.cascade li {
+                gap: 0.25rem;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0;
+            }
+
+            .header li {
+                justify-content: flex-start;
+            }
+
+            .contact-details {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <div>
+                <h1>Carl Edward Lyons</h1>
+                <p>Hamilton, Ontario, Canada</p>
+            </div>
+            <ul class="contact-details">
+                <li>Email:<a href="mailto:carl@carledwardlyons.ca">
+                    carl@carledwardlyons.ca
+                </a></li>
+                <li>Website:<a href="https://carledwardlyons.ca">
+                    carledwardlyons.ca
+                </a></li>
+                <li>GitHub:<a href="https://github.com/systemcarl">
+                    github.com/systemcarl
+                </a></li>
+                <li>LinkedIn:<a href="https://www.linkedin.com/in/celyons">
+                    linkedin.com/in/celyons
+                </a></li>
+            </ul>
+        </div>
+        <h2 class="title">Principal Software Developer</h2>
+        <p class="headline">
+            Multi-disciplinary full-stack software developer with 8+ years of
+                experience spanning project management, research and
+                development, and quality assurance.
+            Domain expert in web application development, software as a service
+                (SaaS) platforms, e-commerce, and dynamic service integrations.
+            Proven architect and team lead, mentoring 12+ junior developers over
+                2 years.
+        </p>
+        <h2 class="section">Skills</h2>
+        <ul class="cascade">
+            <li>
+                <h3>Languages:&Tab;</h3>
+                <span>
+                    <pre>Python</pre>
+                    <pre>| JavaScript</pre>
+                    <pre>| TypeScript</pre>
+                    <pre>| Svelte</pre>
+                    <pre>| C#</pre>
+                    <pre>| C++</pre>
+                    <pre>| HTML</pre>
+                    <pre>| CSS</pre>
+                    <pre>| PHP</pre>
+                    <pre>| BASH</pre>
+                    <pre>| SQL</pre>
+                    <pre>| MATLAB</pre>
+                    <pre>| R</pre>
+                </span>
+            <li>
+                <h3>Frameworks:&Tab;</h3>
+                <span>
+                    <pre>Django</pre>
+                    <pre>| React</pre>
+                    <pre>| SvelteKit</pre>
+                    <pre>| Gatsby</pre>
+                    <pre>| Laravel</pre>
+                    <pre>| .NET</pre>
+                </span>
+            </li>
+            <li>
+                <h3>Databases:&Tab;</h3>
+                <span>
+                    <pre>PostgreSQL</pre>
+                    <pre>| MySQL</pre>
+                    <pre>| SQLite</pre>
+                    <pre>| IndexedDB</pre>
+                    <pre>| Redis</pre>
+                </span>
+            </li>
+            <li>
+                <h3>Dev/Ops:&Tab;</h3>
+                <span>
+                    <pre>Git</pre>
+                    <pre>| GitHub</pre>
+                    <pre>| GitHub Actions</pre>
+                    <pre>| Docker</pre>
+                    <pre>| Terraform</pre>
+                </span>
+            </li>
+            <li>
+                <h3>Testing:&Tab;&Tab;</h3>
+                <span>
+                    <pre>PyTest</pre>
+                    <pre>| Jest</pre>
+                    <pre>| Vitest</pre>
+                    <pre>| Playwright</pre>
+                </span>
+            </li>
+            <li>
+                <h3>Design:&Tab;&Tab;</h3>
+                <span>
+                    <pre>Figma</pre>
+                    <pre>| Inkscape</pre>
+                </span>
+            </li>
+        </ul>
+        <h2 class="section">Experience</h2>
+        <h3 class="job">
+            <pre>Batched, Hamilton</pre>
+            <pre>| Chief Technology Officer</pre>
+            <pre>| 2 years</pre>
+        </h3>
+        <ul class="details">
+            <li>
+                Spearheaded design and implementation of a multi-tenant,
+                    white-label, SaaS platform for grocery stores, restaurants,
+                    and other food service providers.
+            </li>
+            <li>
+                Architected and led development of custom headless content
+                    management system (CMS), e-commerce, and delivery services;
+                featuring multi-channel, real-time integrations with 20+
+                    third-party payment, logistics, and marketing services.
+            </li>
+            <li>
+                Supervised Mohawk College co-op students and Humber College
+                    graduate capstone projects.
+            </li>
+            <li>
+                Delivered 120k+ lines of code over 80+ releases and 3k+ commits.
+            </li>
+        </ul>
+        <h3 class="job">
+            <pre>MRKTBOX, Hamilton</pre>
+            <pre>| Lead Software Developer</pre>
+            <pre>| 3 years</pre>
+        </h3>
+        <ul class="details">
+            <li>
+                Modernized legacy PHP application to a progress web app (PWA)
+                    migrating 750+ customer accounts.
+            </li>
+            <li>
+                Consolidated over 5k+ product listings to optimize search engine
+                    performance and consolidated sales records.
+            </li>
+            <li>
+                Automated daily data processing and reporting tasks to reduce
+                    manual data entry by 8+ hours per week.
+            </li>
+        </ul>
+        <h3 class="job">
+            <pre>nVent, Milton</pre>
+            <pre>| Field Technician</pre>
+            <pre>| 2.5 years</pre>
+        </h3>
+        <ul class="details">
+            <li>
+                Performed quality assurance testing and troubleshooting of
+                    commercial-industrial system controllers and
+                    high-temperature power conductors.
+            </li>
+            <li>
+                Mediated complex technical and operational concerns between
+                    engineers and contractors to ensure successful project
+                    delivery.
+            </li>
+        </ul>
+        <h3 class="job">
+            <pre>South River Brewing Co, Burlington</pre>
+            <pre>| Sales Manager</pre>
+            <pre>| 1 year</pre>
+        </h3>
+        <ul class="details">
+            <li>
+                Piloted sales and marketing of products to distributors and
+                    retailers across Ontario, increasing product availability
+                    and brand awareness.
+            </li>
+        </ul>
+        <h2 class="section">Education</h2>
+        <h3 class="education">
+            <pre>McMaster University, Hamilton</pre>
+            <pre>| MSc, Psychology, Neuroscience & Behaviour</pre>
+            <pre>| Candidate</pre>
+        </h3>
+        <ul class="details">
+            <li>
+                Quantification and analysis of echolocation spacial
+                    characteristics in developing big brown bats
+                    (<i>Eptesicus fuscus</i>).
+            </li>
+            <li>
+                Prototyped audio analysis pipeline to aggregate and analyze data
+                    from 500+ GB of high-sample-rate audio.
+            </li>
+            <li>
+                Awarded Mitacs Globalink Internship grant to conduct research
+                    at the University of Southern Denmark, Odense.
+            </li>
+        </ul>
+        <h3 class="education">
+            <pre>University of Waterloo, Waterloo</pre>
+            <pre>| BSc, Honours, Physics, Astrophysics Specialization</pre>
+            <pre>| Conferred</pre>
+        </h3>
+        <h2 class="section">Volunteering</h2>
+        <ul class="inline">
+            <li>
+                <h3>Land Care Niagara, Niagara Falls:</h3>
+                <span> Bat monitoring and community outreach</span>
+            </li>
+            <li>
+                <h3>Toronto Zoo, Toronto:</h3>
+                <span> Assisting "After Hours" community bat event</span>
+            </li>
+            <li>
+                <h3>Stewards of Cootes Watershed, Hamilton:</h3>
+                <span> Participating in environmental cleanup
+                    & fundraising events</span>
+            </li>
+        </ul>
+    </main>
+</body>
