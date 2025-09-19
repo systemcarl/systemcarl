@@ -9,6 +9,7 @@ If you haven't already guessed, I'm a software developer.
 I also sometimes do scientific research — mostly about bats 🦇 —
 and I like to write and teach about programming and data science.
 For the full story, take a sneak peak at my [about me] article.
+My [resume] is also available.
 
 ## Weblog
 You can actually find all my articles [here], on GitHub.
@@ -76,6 +77,7 @@ Feel free to reach out:
 [my personal website & blog]: https://carledwardlyons.ca
 [about me]:
     https://github.com/systemcarl/weblog/blob/main/articles/about-me.md
+[resume]: https://systemcarl.github.io/profile/resume.html
 [here]: https://github.com/systemcarl/weblog/tree/main/articles
 [weblog repository]: https://github.com/systemcarl/weblog
 [`blank`]: https://github.com/systemcarl/blank
