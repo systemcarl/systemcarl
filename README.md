@@ -25,7 +25,7 @@ The project has two main components:
 - a generic blog/portfolio template, [`blank`],
 - the deployment pipeline which configures and deploys the template, [`folio`].
 
-If you're curious about the end goal, you can check out the my [design file].
+If you're curious about the end goal, you can check out the [design file].
 
 ### `blank`
 As a personal philosophy, I believe anything can be repurposed.
