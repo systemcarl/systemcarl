@@ -22,12 +22,13 @@ But, my [weblog repository] will still be the canonical source.
 Right now I'm deep in the process of building my personal website to host my
     blog content.
 The project has two main components:
-- a generic blog/portfolio template, [`blank`],
-- the deployment pipeline which configures and deploys the template, [`folio`].
+- a generic blog/portfolio template, [`blank`](#blank);
+- and the deployment pipeline which configures and deploys the template,
+    [`folio`](#folio).
 
 If you're curious about the end goal, you can check out the [design file].
 
-### `blank`
+### <a id="blank"></a>[`blank`]
 As a personal philosophy, I believe anything can be repurposed.
 While building out my personal website, I chose to abstract out anything
     specific to myself.
@@ -47,7 +48,7 @@ The planned features include:
 - [ ] Markdown blog posts/articles rendering;
 - [ ] Ad-hoc static HTML pages.
 
-### `folio`
+### <a id="folio"></a>[`folio`]
 My personal website serves as an ideal example for the `blank` template.
 And in turn the `folio` repository defines a deployment pipeline to configure
     and deploy the `blank` template,
