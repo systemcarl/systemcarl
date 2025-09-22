@@ -34,8 +34,8 @@ While building out my personal website, I chose to abstract out anything
 The result was a opinionated, minimalistic template for a personal blog
     and/or portfolio.
 
-The application uses the meta-framework [SvelteKit], to create provide a
-    server-side web application.
+The application uses the meta-framework [SvelteKit], to build a
+    server-side rendered web application.
 Page generation is configured at runtime to provide real-time updates to
     content, themes, and other application settings.
 
