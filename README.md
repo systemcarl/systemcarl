@@ -82,7 +82,8 @@ Feel free to reach out:
 [weblog repository]: https://github.com/systemcarl/weblog
 [`blank`]: https://github.com/systemcarl/blank
 [`folio`]: https://github.com/systemcarl/folio
-[design file]: https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?node-id=109-188&t=w7DTuyIlvDiZi8pi-1
+[design file]:
+    https://www.figma.com/design/TJYtbshPU4K0CoXuYKqtwp/Portfolio?node-id=109-188&t=w7DTuyIlvDiZi8pi-1
 [SvelteKit]: https://svelte.dev/docs/kit/introduction
 [Docker]: https://www.docker.com/
 [Caddy]: https://caddyserver.com/
