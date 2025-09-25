@@ -43,9 +43,10 @@ Page generation is configured at runtime to provide real-time updates to
 I am developing the template features alongside my personal website.
 The planned features include:
 - [x] Themeable palettes, typography, layouts, and graphics;
-- [ ] Multiple theme support;
+- [x] Embedded, theme integrated, SVG graphics;
+- [ ] Concurrent theme support;
 - [ ] Git integration for content management;
-- [ ] Markdown blog posts/articles rendering;
+- [ ] Markdown blog post rendering;
 - [ ] Ad-hoc static HTML pages.
 
 ### <a id="folio"></a>[`folio`]
