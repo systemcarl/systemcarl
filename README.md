@@ -6,7 +6,7 @@ This is the best place to find all my stuff while I finish setting up
 Read on for more information and all of the links.
 
 If you haven't already guessed, I'm a software developer.
-I also sometimes do scientific research — mostly about bats 🦇 —
+I also sometimes do scientific research — [mostly about bats] 🦇 —
 and I like to write and teach about programming and data science.
 For the full story, take a sneak peak at my [about me] article.
 My [resume] is also available.
@@ -76,6 +76,7 @@ Feel free to reach out:
 - ✉️ carl@carledwardlyons.ca
 - 💼 [LinkedIn]
 
+[mostly about bats]: https://github.com/systemcarl/grayson
 [my personal website & blog]: https://carledwardlyons.ca
 [about me]:
     https://github.com/systemcarl/weblog/blob/main/articles/about-me.md
