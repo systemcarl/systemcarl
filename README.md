@@ -45,8 +45,9 @@ The planned features include:
 - [x] Themeable palettes, typography, layouts, and graphics;
 - [x] Embedded, theme integrated, SVG graphics;
 - [ ] Concurrent theme support;
-- [ ] Git integration for content management;
-- [ ] Markdown blog post rendering;
+- [x] Git integration for content management;
+- [x] Markdown blog post rendering;
+- [ ] Blog post indexing, tagging, and searching;
 - [ ] Ad-hoc static HTML pages.
 
 ### <a id="folio"></a>[`folio`]
