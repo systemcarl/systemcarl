@@ -2,7 +2,7 @@
 
 Welcome to my GitHub profile.
 This is the best place to find all my stuff while I finish setting up
-    [my personal website & blog].
+    [my personal website] & [blog].
 Read on for more information and all of the links.
 
 If you haven't already guessed, I'm a software developer.
@@ -78,9 +78,9 @@ Feel free to reach out:
 - 💼 [LinkedIn]
 
 [mostly about bats]: https://github.com/systemcarl/grayson
-[my personal website & blog]: https://carledwardlyons.ca
-[about me]:
-    https://github.com/systemcarl/weblog/blob/main/articles/about-me.md
+[my personal website]: https://carledwardlyons.ca
+[blog]: https://carledwardlyons.ca/articles/hello-world
+[about me]: https://carledwardlyons.ca/articles/about-me
 [resume]: https://systemcarl.github.io/profile/resume.html
 [here]: https://github.com/systemcarl/weblog/tree/main/articles
 [weblog repository]: https://github.com/systemcarl/weblog
