@@ -18,6 +18,16 @@ I'm slowly collecting development logs, tutorials, and other long-form articles
 Eventually, there will be a nice place to read them all on my personal website.
 But, my [weblog repository] will still be the canonical source.
 
+### DevLogs
+I've been documenting my all my ongoing [projects](#projects) in a series of
+    development log articles.
+These articles cover my design decisions and implementation challenges I
+    encountered.
+- [Setting Up SvelteKit for a Personal Weblog]
+- [Exploring CI/CD for a Modern (SvelteKit) Web Application]
+- [Designing a Content Template]
+- [Implementing a Weblog Markdown Parser]
+
 ## Projects
 Right now I'm deep in the process of building my personal website to host my
     blog content.
@@ -27,6 +37,8 @@ The project has two main components:
     [`folio`](#folio).
 
 If you're curious about the end goal, you can check out the [design file].
+And if you want to read more about my progress, check out my
+    [development logs](#devlogs).
 
 ### <a id="blank"></a>[`blank`]
 As a personal philosophy, I believe anything can be repurposed.
@@ -84,6 +96,14 @@ Feel free to reach out:
 [resume]: https://systemcarl.github.io/profile/resume.html
 [here]: https://github.com/systemcarl/weblog/tree/main/articles
 [weblog repository]: https://github.com/systemcarl/weblog
+[Setting Up SvelteKit for a Personal Weblog]:
+    https://carledwardlyons.ca/articles/devlogs/blank/sveltekit
+[Exploring CI/CD for a Modern (SvelteKit) Web Application]:
+    https://carledwardlyons.ca/articles/devlogs/blank/ci-cd
+[Designing a Content Template]:
+    https://carledwardlyons.ca/articles/devlogs/blank/content-template
+[Implementing a Weblog Markdown Parser]:
+    https://carledwardlyons.ca/articles/devlogs/blank/markdown-parser
 [`blank`]: https://github.com/systemcarl/blank
 [`folio`]: https://github.com/systemcarl/folio
 [design file]:
