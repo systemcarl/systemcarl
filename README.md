@@ -18,6 +18,13 @@ I'm slowly collecting development logs, tutorials, and other long-form articles
 Eventually, there will be a nice place to read them all on my personal website.
 But, my [weblog repository] will still be the canonical source.
 
+### Tips & Guides
+Occasionally I'll come across a problem that doesn't have a quick answers.
+When that happens, I'll take some time to research and document what I find
+    so hopefully others don't have as hard of a time.
+The first published guide provides some tips for testing Svelte 5 components:
+- [Mocking Svelte 5 Components]
+
 ### DevLogs
 I've been documenting my all my ongoing [projects](#projects) in a series of
     development log articles.
@@ -96,6 +103,8 @@ Feel free to reach out:
 [resume]: https://systemcarl.github.io/profile/resume.html
 [here]: https://github.com/systemcarl/weblog/tree/main/articles
 [weblog repository]: https://github.com/systemcarl/weblog
+[Mocking Svelte 5 Components]:
+    https://carledwardlyons.ca/articles/tips/svelte/svelte-5-mocks
 [Setting Up SvelteKit for a Personal Weblog]:
     https://carledwardlyons.ca/articles/devlogs/blank/sveltekit
 [Exploring CI/CD for a Modern (SvelteKit) Web Application]:
