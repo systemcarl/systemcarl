@@ -12,11 +12,11 @@ For the full story, take a sneak peak at my [about me] article.
 My [resume] is also available.
 
 ## Weblog
-You can actually find all my articles [here], on GitHub.
+Check out my personal website for [my latest articles].
+You can also find all my articles [here] too, on GitHub
+(including articles I might not have published yet 🤫).
 I'm slowly collecting development logs, tutorials, and other long-form articles
     about my various interests.
-Eventually, there will be a nice place to read them all on my personal website.
-But, my [weblog repository] will still be the canonical source.
 
 ### Tips & Guides
 Occasionally I'll come across a problem that doesn't have a quick answer.
@@ -27,7 +27,7 @@ The first published guide provides some tips for testing Svelte 5 components:
 
 ### DevLogs
 I've been documenting my all my ongoing [projects](#projects) in a series of
-    development log articles.
+    [development log articles].
 These articles cover my design decisions and the implementation challenges I
     encountered.
 - [Setting Up SvelteKit for a Personal Weblog]
@@ -101,10 +101,12 @@ Feel free to reach out:
 [blog]: https://carledwardlyons.ca/articles/hello-world
 [about me]: https://carledwardlyons.ca/articles/about-me
 [resume]: https://systemcarl.github.io/profile/resume.html
+[my latest articles]: https://carledwardlyons.ca#featured
 [here]: https://github.com/systemcarl/weblog/tree/main/articles
 [weblog repository]: https://github.com/systemcarl/weblog
 [Mocking Svelte 5 Components]:
     https://carledwardlyons.ca/articles/tips/svelte/svelte-5-mocks
+[development log articles]: https://carledwardlyons.ca#devlogs
 [Setting Up SvelteKit for a Personal Weblog]:
     https://carledwardlyons.ca/articles/devlogs/blank/sveltekit
 [Exploring CI/CD for a Modern (SvelteKit) Web Application]:
