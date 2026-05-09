@@ -19,7 +19,7 @@ Eventually, there will be a nice place to read them all on my personal website.
 But, my [weblog repository] will still be the canonical source.
 
 ### Tips & Guides
-Occasionally I'll come across a problem that doesn't have a quick answers.
+Occasionally I'll come across a problem that doesn't have a quick answer.
 When that happens, I'll take some time to research and document what I find
     so hopefully others don't have as hard of a time.
 The first published guide provides some tips for testing Svelte 5 components:
@@ -28,7 +28,7 @@ The first published guide provides some tips for testing Svelte 5 components:
 ### DevLogs
 I've been documenting my all my ongoing [projects](#projects) in a series of
     development log articles.
-These articles cover my design decisions and implementation challenges I
+These articles cover my design decisions and the implementation challenges I
     encountered.
 - [Setting Up SvelteKit for a Personal Weblog]
 - [Exploring CI/CD for a Modern (SvelteKit) Web Application]
