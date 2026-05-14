@@ -97,24 +97,29 @@ Feel free to reach out:
 - 💼 [LinkedIn]
 
 [mostly about bats]: https://github.com/systemcarl/grayson
-[my personal website]: https://carledwardlyons.ca
-[blog]: https://carledwardlyons.ca/articles/hello-world
-[about me]: https://carledwardlyons.ca/articles/about-me
+[my personal website]:
+    https://carledwardlyons.ca/?ref_id=profile&ref_source=readme
+[blog]:
+    https://carledwardlyons.ca/articles/hello-world?ref_id=profile&ref_source=readme
+[about me]:
+    https://carledwardlyons.ca/articles/about-me?ref_id=profile&ref_source=readme
 [resume]: https://systemcarl.github.io/profile/resume.html
-[my latest articles]: https://carledwardlyons.ca#featured
+[my latest articles]:
+    https://carledwardlyons.ca#featured?ref_id=profile&ref_source=readme
 [here]: https://github.com/systemcarl/weblog/tree/main/articles
 [weblog repository]: https://github.com/systemcarl/weblog
 [Mocking Svelte 5 Components]:
-    https://carledwardlyons.ca/articles/tips/svelte/svelte-5-mocks
-[development log articles]: https://carledwardlyons.ca#devlogs
+    https://carledwardlyons.ca/articles/tips/svelte/svelte-5-mocks?ref_id=profile&ref_source=readme
+[development log articles]:
+    https://carledwardlyons.ca#devlogs?ref_id=profile&ref_source=readme
 [Setting Up SvelteKit for a Personal Weblog]:
-    https://carledwardlyons.ca/articles/devlogs/blank/sveltekit
+    https://carledwardlyons.ca/articles/devlogs/blank/sveltekit?ref_id=profile&ref_source=readme
 [Exploring CI/CD for a Modern (SvelteKit) Web Application]:
-    https://carledwardlyons.ca/articles/devlogs/blank/ci-cd
+    https://carledwardlyons.ca/articles/devlogs/blank/ci-cd?ref_id=profile&ref_source=readme
 [Designing a Content Template]:
-    https://carledwardlyons.ca/articles/devlogs/blank/content-template
+    https://carledwardlyons.ca/articles/devlogs/blank/content-template?ref_id=profile&ref_source=readme
 [Implementing a Weblog Markdown Parser]:
-    https://carledwardlyons.ca/articles/devlogs/blank/markdown-parser
+    https://carledwardlyons.ca/articles/devlogs/blank/markdown-parser?ref_id=profile&ref_source=readme
 [`blank`]: https://github.com/systemcarl/blank
 [`folio`]: https://github.com/systemcarl/folio
 [design file]:
